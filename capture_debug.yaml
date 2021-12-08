@@ -1,0 +1,25 @@
+---
+- name: CAPTURING DEBUG
+  hosts: routers
+  connection: network_cli
+  gather_facts: False
+
+  tasks:
+  - name: Pushing debug commands 
+    ios_command:
+      commands:
+        - debug ip packet detail
+  
+  - pause: 
+      seconds: 5
+  
+  - name: Gathering debugs
+    ios_command:
+      commands:
+        - show log
+    register: config
+
+  - name: save output to local directory
+    copy:
+      content: "{{ config.stdout | replace('\\n', '\n') }}"           
+      dest: "debug-logs/{{ inventory_hostname }}.log"
