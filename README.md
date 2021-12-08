@@ -80,6 +80,12 @@ There are several python modules that are required to replicate this project. Ad
     127.0.0.1 - - [08/Dec/2021 03:38:11] "POST / HTTP/1.1" 200 -
     ```
 
+## Skills
+
+1. RESTCONF skill function
+
+![RESTCONF](restconfTest.png)
+
 ## Common Help
 
 * If the running config becomes too large, it gets saved to the following:
