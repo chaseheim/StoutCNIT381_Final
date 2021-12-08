@@ -1,0 +1,1267 @@
+['Syslog logging: enabled (0 messages dropped, 3 messages rate-limited, 69 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 69711 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 69028 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 90 message lines logged
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (131072 bytes):
+cal), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.137:     TCP src=22, dst=40494, seq=2442108210, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.137: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.137:     TCP src=22, dst=40494, seq=2442108770, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.137: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.137: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.137: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.137: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.137: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.137:     TCP src=22, dst=40494, seq=2442108770, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.137: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.137:     TCP src=22, dst=40494, seq=2442109330, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.137: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.137: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.137: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.137: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.137: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.137:     TCP src=22, dst=40494, seq=2442109330, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.138: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.138:     TCP src=22, dst=40494, seq=2442109890, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.138: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.138: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.138: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.138: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.138: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.138:     TCP src=22, dst=40494, seq=2442109890, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.138: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.138:     TCP src=22, dst=40494, seq=2442110450, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.138: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.138: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.138: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.138: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.138: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.138:     TCP src=22, dst=40494, seq=2442110450, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.138: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 456, local feature
+*Dec  8 05:46:44.138:     TCP src=22, dst=40494, seq=2442111010, ack=216465577, win=3696 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.138: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.138: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.138: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.138: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.138: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 456, sending
+*Dec  8 05:46:44.138:     TCP src=22, dst=40494, seq=2442111010, ack=216465577, win=3696 ACK PSH
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.139: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.139: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.139: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.139: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.139: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.139: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.139: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.139: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.139: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.139: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.139: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.139: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.139: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.139: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.139: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.140: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.140:     TCP src=22, dst=40494, seq=2442111426, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.140: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.140: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.140: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.140: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.140: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.140:     TCP src=22, dst=40494, seq=2442111426, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.140: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.140:     TCP src=22, dst=40494, seq=2442111986, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.140: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.140: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.140: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.140: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.140: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.140:     TCP src=22, dst=40494, seq=2442111986, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.141: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.141:     TCP src=22, dst=40494, seq=2442112546, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.141: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.141: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.141: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.141: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.141: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.141:     TCP src=22, dst=40494, seq=2442112546, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.141: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.141:     TCP src=22, dst=40494, seq=2442113106, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.141: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.141: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.141: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.141: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.141: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.141:     TCP src=22, dst=40494, seq=2442113106, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.142: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.142:     TCP src=22, dst=40494, seq=2442113666, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.142: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.142: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.142: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.142: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.142: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.142:     TCP src=22, dst=40494, seq=2442113666, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.142: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.142:     TCP src=22, dst=40494, seq=2442114226, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.142: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.142: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.142: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.142: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.142: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.142:     TCP src=22, dst=40494, seq=2442114226, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.143: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.143:     TCP src=22, dst=40494, seq=2442114786, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.143: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.143: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.143: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.143: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.143: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.143:     TCP src=22, dst=40494, seq=2442114786, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.143: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.143:     TCP src=22, dst=40494, seq=2442115346, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.143: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.143: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.143: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.143: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.143: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.143:     TCP src=22, dst=40494, seq=2442115346, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.143: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.144:     TCP src=22, dst=40494, seq=2442115906, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.144: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.144: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.144: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.144: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.144: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.144:     TCP src=22, dst=40494, seq=2442115906, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.144: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.144:     TCP src=22, dst=40494, seq=2442116466, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.144: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.144: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.144: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.144: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.144: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.144:     TCP src=22, dst=40494, seq=2442116466, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.144: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.144:     TCP src=22, dst=40494, seq=2442117026, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.144: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.144: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.144: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.144: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.144: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.145:     TCP src=22, dst=40494, seq=2442117026, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.145: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.145:     TCP src=22, dst=40494, seq=2442117586, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.145: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.145: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.145: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.145: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.145: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.145:     TCP src=22, dst=40494, seq=2442117586, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.145: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.145:     TCP src=22, dst=40494, seq=2442118146, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.145: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.145: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.145: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.145: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.145: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.145:     TCP src=22, dst=40494, seq=2442118146, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.146: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.146:     TCP src=22, dst=40494, seq=2442118706, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.146: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.146: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.146: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.146: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.146: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.146:     TCP src=22, dst=40494, seq=2442118706, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.146: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 456, local feature
+*Dec  8 05:46:44.146:     TCP src=22, dst=40494, seq=2442119266, ack=216465577, win=3696 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.146: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.146: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.146: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.146: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.146: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 456, sending
+*Dec  8 05:46:44.146:     TCP src=22, dst=40494, seq=2442119266, ack=216465577, win=3696 ACK PSH
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.147: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.147: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.147: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.147: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.147: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.147: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.147: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.147: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.147: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.147: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.147: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.147: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.147: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.147: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.147: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.147: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.147: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.148: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.148:     TCP src=22, dst=40494, seq=2442119682, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.148: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.148: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.148: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.148: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.148: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.148:     TCP src=22, dst=40494, seq=2442119682, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.148: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.148:     TCP src=22, dst=40494, seq=2442120242, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.148: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.148: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.148: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.148: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.148: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.148:     TCP src=22, dst=40494, seq=2442120242, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.149: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.149:     TCP src=22, dst=40494, seq=2442120802, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.149: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.149: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.149: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.149: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.149: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.149:     TCP src=22, dst=40494, seq=2442120802, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.149: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.149:     TCP src=22, dst=40494, seq=2442121362, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.149: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.149: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.149: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.149: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.149: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.149:     TCP src=22, dst=40494, seq=2442121362, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.149: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.149:     TCP src=22, dst=40494, seq=2442121922, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.149: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.149: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.149: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.149: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.149: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.150:     TCP src=22, dst=40494, seq=2442121922, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.150: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.150:     TCP src=22, dst=40494, seq=2442122482, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.150: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.150: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.150: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.150: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.150: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.150:     TCP src=22, dst=40494, seq=2442122482, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.150: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.150:     TCP src=22, dst=40494, seq=2442123042, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.150: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.150: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.150: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.150: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.150: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.150:     TCP src=22, dst=40494, seq=2442123042, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.150: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.150:     TCP src=22, dst=40494, seq=2442123602, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.150: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.150: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.150: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.150: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.150: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.150:     TCP src=22, dst=40494, seq=2442123602, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.151: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.151:     TCP src=22, dst=40494, seq=2442124162, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.151: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.151: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.151: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.151: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.151: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.151:     TCP src=22, dst=40494, seq=2442124162, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.151: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.151:     TCP src=22, dst=40494, seq=2442124722, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.151: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.151: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.151: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.151: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.151: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.151:     TCP src=22, dst=40494, seq=2442124722, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.151: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.151:     TCP src=22, dst=40494, seq=2442125282, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.151: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.151: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.151: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.151: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.151: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.152:     TCP src=22, dst=40494, seq=2442125282, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.152: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.152:     TCP src=22, dst=40494, seq=2442125842, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.152: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.152: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.152: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.152: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.152: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.152:     TCP src=22, dst=40494, seq=2442125842, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.152: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.152:     TCP src=22, dst=40494, seq=2442126402, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.152: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.152: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.152: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.152: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.152: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.153:     TCP src=22, dst=40494, seq=2442126402, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.153: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.153:     TCP src=22, dst=40494, seq=2442126962, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.153: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.153: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.153: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.153: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.153: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.153:     TCP src=22, dst=40494, seq=2442126962, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.153: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 456, local feature
+*Dec  8 05:46:44.153:     TCP src=22, dst=40494, seq=2442127522, ack=216465577, win=3696 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.153: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.153: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.153: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.153: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.153: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 456, sending
+*Dec  8 05:46:44.153:     TCP src=22, dst=40494, seq=2442127522, ack=216465577, win=3696 ACK PSH
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.154: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.154: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.154: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.154: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.154: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.154: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.154: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.154: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.154: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.154: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.154: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.154: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.154: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.154: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.154: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.155: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.155:     TCP src=22, dst=40494, seq=2442127938, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.155: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.155: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.155: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.155: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.155: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.155:     TCP src=22, dst=40494, seq=2442127938, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.155: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.155:     TCP src=22, dst=40494, seq=2442128498, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.155: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.155: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.155: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.155: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.155: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.155:     TCP src=22, dst=40494, seq=2442128498, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.156: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.156:     TCP src=22, dst=40494, seq=2442129058, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.156: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.156: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.156: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.156: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.156: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.156:     TCP src=22, dst=40494, seq=2442129058, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.157: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.157:     TCP src=22, dst=40494, seq=2442129618, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.157: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.157: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.157: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.157: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.157: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.157:     TCP src=22, dst=40494, seq=2442129618, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.157: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.157:     TCP src=22, dst=40494, seq=2442130178, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.157: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.157: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.157: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.157: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.157: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.157:     TCP src=22, dst=40494, seq=2442130178, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.158: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.158:     TCP src=22, dst=40494, seq=2442130738, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.158: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.158: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.158: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.158: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.158: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.158:     TCP src=22, dst=40494, seq=2442130738, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.158: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.158:     TCP src=22, dst=40494, seq=2442131298, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.158: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.158: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.158: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.158: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.158: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.158:     TCP src=22, dst=40494, seq=2442131298, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.158: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.158:     TCP src=22, dst=40494, seq=2442131858, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.158: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.158: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.158: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.158: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.158: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.158:     TCP src=22, dst=40494, seq=2442131858, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.159: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.159:     TCP src=22, dst=40494, seq=2442132418, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.159: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.159: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.159: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.159: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.159: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.159:     TCP src=22, dst=40494, seq=2442132418, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.159: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.159:     TCP src=22, dst=40494, seq=2442132978, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.159: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.159: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.159: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.159: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.159: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.159:     TCP src=22, dst=40494, seq=2442132978, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.159: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.159:     TCP src=22, dst=40494, seq=2442133538, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.159: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.159: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.159: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.159: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.159: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.159:     TCP src=22, dst=40494, seq=2442133538, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.160: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.160:     TCP src=22, dst=40494, seq=2442134098, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.160: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.160: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.160: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.160: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.160: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.160:     TCP src=22, dst=40494, seq=2442134098, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.160: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.160:     TCP src=22, dst=40494, seq=2442134658, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.160: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.160: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.160: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.160: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.160: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.160:     TCP src=22, dst=40494, seq=2442134658, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.160: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.160:     TCP src=22, dst=40494, seq=2442135218, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.160: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.160: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.160: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.160: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.160: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.160:     TCP src=22, dst=40494, seq=2442135218, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.161: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 456, local feature
+*Dec  8 05:46:44.161:     TCP src=22, dst=40494, seq=2442135778, ack=216465577, win=3696 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.161: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.161: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.161: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 456, sending
+*Dec  8 05:46:44.161:     TCP src=22, dst=40494, seq=2442135778, ack=216465577, win=3696 ACK PSH
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.161: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.161: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.161: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.161: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.161: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.161: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.161: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.161: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.161: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.161: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.161: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.161: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.161: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.161: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.161: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.162: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.162: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.162: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.162: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.162: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.162:     TCP src=22, dst=40494, seq=2442136194, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.162: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.162: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.162: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.162: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.162: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.162:     TCP src=22, dst=40494, seq=2442136194, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.163: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.163:     TCP src=22, dst=40494, seq=2442136754, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.163: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.163: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.163: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.163: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.163: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.163:     TCP src=22, dst=40494, seq=2442136754, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.163: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.163:     TCP src=22, dst=40494, seq=2442137314, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.163: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.163: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.163: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.163: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.163: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.163:     TCP src=22, dst=40494, seq=2442137314, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.163: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.163:     TCP src=22, dst=40494, seq=2442137874, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.163: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.163: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.163: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.163: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.163: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.164:     TCP src=22, dst=40494, seq=2442137874, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.164: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.164:     TCP src=22, dst=40494, seq=2442138434, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.164: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.164: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.164: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.164: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.164: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.164:     TCP src=22, dst=40494, seq=2442138434, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.164: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.164:     TCP src=22, dst=40494, seq=2442138994, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.164: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.164: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.164: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.164: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.164: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.164:     TCP src=22, dst=40494, seq=2442138994, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.165: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.165:     TCP src=22, dst=40494, seq=2442139554, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.165: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.165: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.165: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.165: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.165: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.165:     TCP src=22, dst=40494, seq=2442139554, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.165: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.165:     TCP src=22, dst=40494, seq=2442140114, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.165: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.165: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.165: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.165: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.165: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.165:     TCP src=22, dst=40494, seq=2442140114, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.165: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.165:     TCP src=22, dst=40494, seq=2442140674, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.165: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.165: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.165: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.165: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.165: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.165:     TCP src=22, dst=40494, seq=2442140674, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.166: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.166:     TCP src=22, dst=40494, seq=2442141234, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.166: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.166: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.166: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.166: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.166: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.166:     TCP src=22, dst=40494, seq=2442141234, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.166: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.166:     TCP src=22, dst=40494, seq=2442141794, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.166: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.166: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.166: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.166: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.166: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.166:     TCP src=22, dst=40494, seq=2442141794, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.166: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.166:     TCP src=22, dst=40494, seq=2442142354, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.166: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.166: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.166: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.166: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.166: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.167:     TCP src=22, dst=40494, seq=2442142354, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.167: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.167:     TCP src=22, dst=40494, seq=2442142914, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.167: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.167: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.167: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.167: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.167: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.167:     TCP src=22, dst=40494, seq=2442142914, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.167: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.167:     TCP src=22, dst=40494, seq=2442143474, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.167: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.167: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.167: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.167: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.167: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.167:     TCP src=22, dst=40494, seq=2442143474, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.167: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 456, local feature
+*Dec  8 05:46:44.167:     TCP src=22, dst=40494, seq=2442144034, ack=216465577, win=3696 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.167: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.167: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.167: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.167: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.167: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 456, sending
+*Dec  8 05:46:44.167:     TCP src=22, dst=40494, seq=2442144034, ack=216465577, win=3696 ACK PSH
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.168: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.168: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.168: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.168: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.168: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.168: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.168: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.168: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.168: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.168: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.168: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.168: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.168: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.168: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.168: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.169: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.169:     TCP src=22, dst=40494, seq=2442144450, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.169: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.169: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.169: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.169: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.169: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.169:     TCP src=22, dst=40494, seq=2442144450, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.169: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.169:     TCP src=22, dst=40494, seq=2442145010, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.169: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.170: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.170: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.170: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.170: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.170:     TCP src=22, dst=40494, seq=2442145010, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.170: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.170:     TCP src=22, dst=40494, seq=2442145570, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.170: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.170: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.170: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.170: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.170: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.170:     TCP src=22, dst=40494, seq=2442145570, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.170: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.170:     TCP src=22, dst=40494, seq=2442146130, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.170: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.170: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.170: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.170: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.170: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.170:     TCP src=22, dst=40494, seq=2442146130, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.170: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.170:     TCP src=22, dst=40494, seq=2442146690, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.170: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.170: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.171: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.171: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.171: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.171:     TCP src=22, dst=40494, seq=2442146690, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.171: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.171:     TCP src=22, dst=40494, seq=2442147250, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.171: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.171: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.171: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.171: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.171: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.171:     TCP src=22, dst=40494, seq=2442147250, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.171: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.171:     TCP src=22, dst=40494, seq=2442147810, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.171: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.171: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.171: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.171: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.171: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.171:     TCP src=22, dst=40494, seq=2442147810, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.171: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.172:     TCP src=22, dst=40494, seq=2442148370, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.172: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.172: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.172: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.172: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.172: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.172:     TCP src=22, dst=40494, seq=2442148370, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.172: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.172:     TCP src=22, dst=40494, seq=2442148930, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.172: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.172: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.172: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.172: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.172: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.172:     TCP src=22, dst=40494, seq=2442148930, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.172: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.172:     TCP src=22, dst=40494, seq=2442149490, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.172: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.172: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.172: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.172: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.172: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.172:     TCP src=22, dst=40494, seq=2442149490, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.172: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.172:     TCP src=22, dst=40494, seq=2442150050, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.172: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.172: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.172: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.172: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.172: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.172:     TCP src=22, dst=40494, seq=2442150050, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.173: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.173:     TCP src=22, dst=40494, seq=2442150610, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.173: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.173: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.173: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.173: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.173: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.173:     TCP src=22, dst=40494, seq=2442150610, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.173: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.173:     TCP src=22, dst=40494, seq=2442151170, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.173: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.173: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.173: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.173: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.173: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.173:     TCP src=22, dst=40494, seq=2442151170, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.173: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.173:     TCP src=22, dst=40494, seq=2442151730, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.173: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.173: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.173: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.173: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.173: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.173:     TCP src=22, dst=40494, seq=2442151730, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.173: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 456, local feature
+*Dec  8 05:46:44.173:     TCP src=22, dst=40494, seq=2442152290, ack=216465577, win=3696 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.174: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.174: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.174: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 456, sending
+*Dec  8 05:46:44.174:     TCP src=22, dst=40494, seq=2442152290, ack=216465577, win=3696 ACK PSH
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.174: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.174: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.174: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.174: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.174: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.174: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.174: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.174: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.174: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.174:     TCP src=22, dst=40494, seq=2442152706, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.174: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.174: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.174: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.175: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.175:     TCP src=22, dst=40494, seq=2442152706, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.175: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.175:     TCP src=22, dst=40494, seq=2442153266, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.175: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.175: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.175: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.175: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.175: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.175:     TCP src=22, dst=40494, seq=2442153266, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.175: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:46:44.175:     TCP src=22, dst=40494, seq=2442153826, ack=216465577, win=3696 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.175: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.175: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.175: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.175: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.175: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:46:44.175:     TCP src=22, dst=40494, seq=2442153826, ack=216465577, win=3696 ACK
+*Dec  8 05:46:44.175: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 520, local feature
+*Dec  8 05:46:44.175:     TCP src=22, dst=40494, seq=2442154386, ack=216465577, win=3696 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:44.176: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:44.176: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:44.176: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:44.176: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:44.180: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 520, sending
+*Dec  8 05:46:44.181:     TCP src=22, dst=40494, seq=2442154386, ack=216465577, win=3696 ACK PSH
+*Dec  8 05:46:44.181: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.181: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.181: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.181: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.195: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.196: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.196: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.196: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.203: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.203: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.203: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.203: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.208: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.208: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.208: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.208: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.221: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.222: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.222: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.222: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.226: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.226: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.226: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.226: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:44.281: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:44.281: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:44.281: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:44.281: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:45.253: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:45.253: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:45.253: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:45.253: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:45.255: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.56.51)
+*Dec  8 05:46:45.336: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:45.336: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:45.336: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:45.336: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:45.337: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 40, local feature
+*Dec  8 05:46:45.337:     TCP src=22, dst=40494, seq=2442154866, ack=216465674, win=3600 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:45.337: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:45.337: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:45.338: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:45.338: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:45.338: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 40, sending
+*Dec  8 05:46:45.338:     TCP src=22, dst=40494, seq=2442154866, ack=216465674, win=3600 ACK
+*Dec  8 05:46:45.354: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 120, local feature
+*Dec  8 05:46:45.355:     TCP src=22, dst=40494, seq=2442154866, ack=216465674, win=3600 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:45.355: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:45.355: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:45.355: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:45.355: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:45.355: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 120, sending
+*Dec  8 05:46:45.355:     TCP src=22, dst=40494, seq=2442154866, ack=216465674, win=3600 ACK PSH
+*Dec  8 05:46:45.356: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 40, local feature
+*Dec  8 05:46:45.356:     TCP src=22, dst=40494, seq=2442154946, ack=216465674, win=3600 ACK PSH FIN, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:46:45.356: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:46:45.356: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:46:45.356: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:46:45.356: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:46:45.356: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 40, sending
+*Dec  8 05:46:45.356:     TCP src=22, dst=40494, seq=2442154946, ack=216465674, win=3600 ACK PSH FIN
+*Dec  8 05:46:45.357: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:45.357: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:45.357: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:45.357: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:46:45.358: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:46:45.358: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:46:45.358: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:46:45.358: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:47:06.773: IP: s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (nil), len 72, input feature
+*Dec  8 05:47:06.773:     UDP src=57621, dst=57621, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:06.773: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.1 dst 192.168.56.255
+*Dec  8 05:47:06.773: FIBfwd-proc: Default:192.168.56.255/32 receive entry
+*Dec  8 05:47:06.773: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:06.773: IP: tableid=0, s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (GigabitEthernet1) nexthop=192.168.56.255, routed via RIB
+*Dec  8 05:47:06.773: IP: s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (GigabitEthernet1), len 72, rcvd 3
+*Dec  8 05:47:06.773:     UDP src=57621, dst=57621
+*Dec  8 05:47:06.773: IP: s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (nil), len 72, stop process pak for forus packet
+*Dec  8 05:47:06.773:     UDP src=57621, dst=57621
+*Dec  8 05:47:06.773: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.1 dst 192.168.56.255
+*Dec  8 05:47:06.773: FIBfwd-proc: Default:192.168.56.255/32 receive entry
+*Dec  8 05:47:06.773: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:06.773: IP: tableid=0, s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (GigabitEthernet1) nexthop=192.168.56.255, routed via RIB
+*Dec  8 05:47:06.773: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.1 dst 192.168.56.255
+*Dec  8 05:47:06.773: FIBfwd-proc: Default:192.168.56.255/32 receive entry
+*Dec  8 05:47:06.773: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:06.773: IP: tableid=0, s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (GigabitEthernet1) nexthop=192.168.56.255, routed via RIB
+*Dec  8 05:47:06.773: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, input feature
+*Dec  8 05:47:06.774:     UDP src=57621, dst=57621, Virtual Fragment Reassembly(39), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:06.774: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, input feature
+*Dec  8 05:47:06.774:     UDP src=57621, dst=57621, IPSec input classification(55), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:06.774: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, input feature
+*Dec  8 05:47:06.774:     UDP src=57621, dst=57621, NAT Outside(92), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:06.774: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, input feature
+*Dec  8 05:47:06.774:     UDP src=57621, dst=57621, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:06.774: FIBipv4-packet-proc: route packet from GigabitEthernet2 src 172.16.0.1 dst 172.16.0.255
+*Dec  8 05:47:06.774: FIBfwd-proc: Default:172.16.0.255/32 receive entry
+*Dec  8 05:47:06.774: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:06.774: IP: tableid=0, s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2) nexthop=172.16.0.255, routed via RIB
+*Dec  8 05:47:06.774: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2), len 72, output feature
+*Dec  8 05:47:06.774:     UDP src=57621, dst=57621, feature skipped, Post-routing NAT Outside(26), rtype 1, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:06.774: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2), len 72, rcvd 3
+*Dec  8 05:47:06.774:     UDP src=57621, dst=57621
+*Dec  8 05:47:06.774: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, stop process pak for forus packet
+*Dec  8 05:47:06.774:     UDP src=57621, dst=57621
+*Dec  8 05:47:06.774: FIBipv4-packet-proc: route packet from GigabitEthernet2 src 172.16.0.1 dst 172.16.0.255
+*Dec  8 05:47:06.774: FIBfwd-proc: Default:172.16.0.255/32 receive entry
+*Dec  8 05:47:06.775: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:06.775: IP: tableid=0, s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2) nexthop=172.16.0.255, routed via RIB
+*Dec  8 05:47:06.775: FIBipv4-packet-proc: route packet from GigabitEthernet2 src 172.16.0.1 dst 172.16.0.255
+*Dec  8 05:47:06.775: FIBfwd-proc: Default:172.16.0.255/32 receive entry
+*Dec  8 05:47:06.775: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:06.775: IP: tableid=0, s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2) nexthop=172.16.0.255, routed via RIB
+*Dec  8 05:47:12.190: FIBipv4-packet-proc: route packet from GigabitEthernet2 src 172.16.0.1 dst 224.0.0.251
+*Dec  8 05:47:12.190: FIBfwd-proc: Default:224.0.0.0/24 receive entry
+*Dec  8 05:47:12.190: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:12.190: FIBipv4-packet-proc: route packet from GigabitEthernet2 src 172.16.0.1 dst 224.0.0.251
+*Dec  8 05:47:12.190: FIBfwd-proc: Default:224.0.0.0/24 receive entry
+*Dec  8 05:47:12.190: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:12.191: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.1 dst 224.0.0.251
+*Dec  8 05:47:12.191: FIBfwd-proc: Default:224.0.0.0/24 receive entry
+*Dec  8 05:47:12.191: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:12.192: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.1 dst 224.0.0.251
+*Dec  8 05:47:12.192: FIBfwd-proc: Default:224.0.0.0/24 receive entry
+*Dec  8 05:47:12.192: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:36.813: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, input feature
+*Dec  8 05:47:36.814:     UDP src=57621, dst=57621, Virtual Fragment Reassembly(39), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:36.814: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, input feature
+*Dec  8 05:47:36.814:     UDP src=57621, dst=57621, IPSec input classification(55), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:36.814: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, input feature
+*Dec  8 05:47:36.814:     UDP src=57621, dst=57621, NAT Outside(92), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:36.814: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, input feature
+*Dec  8 05:47:36.814:     UDP src=57621, dst=57621, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:36.814: FIBipv4-packet-proc: route packet from GigabitEthernet2 src 172.16.0.1 dst 172.16.0.255
+*Dec  8 05:47:36.814: FIBfwd-proc: Default:172.16.0.255/32 receive entry
+*Dec  8 05:47:36.814: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:36.814: IP: tableid=0, s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2) nexthop=172.16.0.255, routed via RIB
+*Dec  8 05:47:36.814: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2), len 72, output feature
+*Dec  8 05:47:36.814:     UDP src=57621, dst=57621, feature skipped, Post-routing NAT Outside(26), rtype 1, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:36.814: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2), len 72, rcvd 3
+*Dec  8 05:47:36.814:     UDP src=57621, dst=57621
+*Dec  8 05:47:36.814: IP: s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (nil), len 72, stop process pak for forus packet
+*Dec  8 05:47:36.815:     UDP src=57621, dst=57621
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: route packet from GigabitEthernet2 src 172.16.0.1 dst 172.16.0.255
+*Dec  8 05:47:36.815: FIBfwd-proc: Default:172.16.0.255/32 receive entry
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:36.815: IP: tableid=0, s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2) nexthop=172.16.0.255, routed via RIB
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: route packet from GigabitEthernet2 src 172.16.0.1 dst 172.16.0.255
+*Dec  8 05:47:36.815: FIBfwd-proc: Default:172.16.0.255/32 receive entry
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:36.815: IP: tableid=0, s=172.16.0.1 (GigabitEthernet2), d=172.16.0.255 (GigabitEthernet2) nexthop=172.16.0.255, routed via RIB
+*Dec  8 05:47:36.815: IP: s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (nil), len 72, input feature
+*Dec  8 05:47:36.815:     UDP src=57621, dst=57621, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.1 dst 192.168.56.255
+*Dec  8 05:47:36.815: FIBfwd-proc: Default:192.168.56.255/32 receive entry
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:36.815: IP: tableid=0, s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (GigabitEthernet1) nexthop=192.168.56.255, routed via RIB
+*Dec  8 05:47:36.815: IP: s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (GigabitEthernet1), len 72, rcvd 3
+*Dec  8 05:47:36.815:     UDP src=57621, dst=57621
+*Dec  8 05:47:36.815: IP: s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (nil), len 72, stop process pak for forus packet
+*Dec  8 05:47:36.815:     UDP src=57621, dst=57621
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.1 dst 192.168.56.255
+*Dec  8 05:47:36.815: FIBfwd-proc: Default:192.168.56.255/32 receive entry
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:36.815: IP: tableid=0, s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (GigabitEthernet1) nexthop=192.168.56.255, routed via RIB
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.1 dst 192.168.56.255
+*Dec  8 05:47:36.815: FIBfwd-proc: Default:192.168.56.255/32 receive entry
+*Dec  8 05:47:36.815: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:47:36.815: IP: tableid=0, s=192.168.56.1 (GigabitEthernet1), d=192.168.56.255 (GigabitEthernet1) nexthop=192.168.56.255, routed via RIB
+*Dec  8 05:48:03.629: %DMI-5-SYNC_START: R0/0: syncfd: External change to running configuration detected. The running configuration will be synchronized to the NETCONF running data store.
+*Dec  8 05:48:04.834: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1, changed state to down
+*Dec  8 05:48:04.849: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2, changed state to down
+*Dec  8 05:48:05.006: %DMI-5-SYNC_COMPLETE: R0/0: syncfd: The running configuration has been synchronized to the NETCONF running data store.
+*Dec  8 05:48:05.417: %SYS-5-CONFIG_I: Configured from console by console
+*Dec  8 05:48:20.319: %LINK-3-UPDOWN: Interface GigabitEthernet1, changed state to up
+*Dec  8 05:48:20.510: %LINK-3-UPDOWN: Interface GigabitEthernet2, changed state to up
+*Dec  8 05:48:21.320: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1, changed state to up
+*Dec  8 05:48:21.510: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2, changed state to up
+*Dec  8 05:48:48.570: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.56.51] [localport: 22] at 05:48:48 UTC Wed Dec 8 2021
+*Dec  8 05:48:49.161: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 136, local feature
+*Dec  8 05:48:49.161:     TCP src=22, dst=40512, seq=1554890476, ack=2010791802, win=3680 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:49.161: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:49.161: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:49.161: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:49.161: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:49.161: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 136, sending
+*Dec  8 05:48:49.161:     TCP src=22, dst=40512, seq=1554890476, ack=2010791802, win=3680 ACK PSH
+*Dec  8 05:48:49.163: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:49.163: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:49.163: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:49.163: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.106: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.106: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.106: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.106: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.108: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.108:     TCP src=22, dst=40512, seq=1554890572, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.108: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.108: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.108: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.109: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.109: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.109:     TCP src=22, dst=40512, seq=1554890572, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.109: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.109:     TCP src=22, dst=40512, seq=1554890636, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.109: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.109: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.109: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.109: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.109: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.110:     TCP src=22, dst=40512, seq=1554890636, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.110: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.110: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.110: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.110: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.110: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.111: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.111: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.111: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.111: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.111:     TCP src=22, dst=40512, seq=1554890700, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.111: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.111: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.111: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.111: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.111: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.111:     TCP src=22, dst=40512, seq=1554890700, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.111: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.111:     TCP src=22, dst=40512, seq=1554890764, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.111: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.111: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.111: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.111: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.111: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.112:     TCP src=22, dst=40512, seq=1554890764, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.112: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.112: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.112: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.112: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.112: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.112:     TCP src=22, dst=40512, seq=1554890828, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.112: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.112: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.112: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.112: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.112: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.112:     TCP src=22, dst=40512, seq=1554890828, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.113: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.113: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.113: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.113: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.113: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.113: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.113: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.113: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.113: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.113:     TCP src=22, dst=40512, seq=1554890892, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.113: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.113: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.113: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.113: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.113: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.113:     TCP src=22, dst=40512, seq=1554890892, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.113: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.113:     TCP src=22, dst=40512, seq=1554890956, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.113: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.113: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.113: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.114: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.114: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.114:     TCP src=22, dst=40512, seq=1554890956, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.114: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.114: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.114: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.114: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.114: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.114:     TCP src=22, dst=40512, seq=1554891020, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.114: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.114: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.114: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.114: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.114: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.114:     TCP src=22, dst=40512, seq=1554891020, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.114: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.115: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.115: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.115: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.115: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.115: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.115: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.115: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.115: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.115:     TCP src=22, dst=40512, seq=1554891084, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.115: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.115: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.115: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.115: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.115: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.115:     TCP src=22, dst=40512, seq=1554891084, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.116: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.116:     TCP src=22, dst=40512, seq=1554891148, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.116: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.116: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.116: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.116: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.116: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.116:     TCP src=22, dst=40512, seq=1554891148, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.116: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.116: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.116: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.116: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.116: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.116:     TCP src=22, dst=40512, seq=1554891212, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.117: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.117: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.117: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.117: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.117: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.117:     TCP src=22, dst=40512, seq=1554891212, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.117: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.117: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.117: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.117: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.117: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.117:     TCP src=22, dst=40512, seq=1554891276, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.117: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.117: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.117: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.117: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.117: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.117:     TCP src=22, dst=40512, seq=1554891276, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.118: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.118: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.118: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.118: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.118: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 104, local feature
+*Dec  8 05:48:55.118:     TCP src=22, dst=40512, seq=1554891340, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.118: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.118: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.118: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.118: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.118: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 104, sending
+*Dec  8 05:48:55.118:     TCP src=22, dst=40512, seq=1554891340, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.119: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.119: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.119: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.119: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.119: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.119: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.119: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.119: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.123: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:48:55.123:     TCP src=22, dst=40512, seq=1554891404, ack=2010791866, win=3616 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.123: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.123: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.123: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.123: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.123: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:48:55.123:     TCP src=22, dst=40512, seq=1554891404, ack=2010791866, win=3616 ACK
+*Dec  8 05:48:55.123: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:48:55.123:     TCP src=22, dst=40512, seq=1554891964, ack=2010791866, win=3616 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.123: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.123: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.123: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.123: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.123: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:48:55.123:     TCP src=22, dst=40512, seq=1554891964, ack=2010791866, win=3616 ACK
+*Dec  8 05:48:55.124: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:48:55.124:     TCP src=22, dst=40512, seq=1554892524, ack=2010791866, win=3616 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.124: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.124: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.124: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.124: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.124: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:48:55.124:     TCP src=22, dst=40512, seq=1554892524, ack=2010791866, win=3616 ACK
+*Dec  8 05:48:55.124: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 600, local feature
+*Dec  8 05:48:55.124:     TCP src=22, dst=40512, seq=1554893084, ack=2010791866, win=3616 ACK, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.124: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.124: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.124: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.124: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.124: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 600, sending
+*Dec  8 05:48:55.124:     TCP src=22, dst=40512, seq=1554893084, ack=2010791866, win=3616 ACK
+*Dec  8 05:48:55.124: IP: s=192.168.56.2 (local), d=192.168.56.51 (nil), len 328, local feature
+*Dec  8 05:48:55.124:     TCP src=22, dst=40512, seq=1554893644, ack=2010791866, win=3616 ACK PSH, feature skipped, NAT(2), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Dec  8 05:48:55.124: FIBipv4-packet-proc: route packet from (local) src 192.168.56.2 dst 192.168.56.51
+*Dec  8 05:48:55.124: FIBfwd-proc: packet routed by adj to GigabitEthernet1 192.168.56.51
+*Dec  8 05:48:55.124: FIBipv4-packet-proc: packet routing succeeded
+*Dec  8 05:48:55.124: IP: tableid=0, s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1) nexthop=192.168.56.51, routed via FIB
+*Dec  8 05:48:55.124: IP: s=192.168.56.2 (local), d=192.168.56.51 (GigabitEthernet1), len 328, sending
+*Dec  8 05:48:55.124:     TCP src=22, dst=40512, seq=1554893644, ack=2010791866, win=3616 ACK PSH
+*Dec  8 05:48:55.125: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.125: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.125: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.125: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.125: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.125: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.125: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.125: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.125: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2
+*Dec  8 05:48:55.125: FIBfwd-proc: Default:192.168.56.2/32 receive entry
+*Dec  8 05:48:55.125: FIBipv4-packet-proc: packet routing failed
+*Dec  8 05:48:55.125: IP: tableid=0, s=192.168.56.51 (GigabitEthernet1), d=192.168.56.2 (GigabitEthernet1) nexthop=192.168.56.2, routed via RIB
+*Dec  8 05:48:55.125: FIBipv4-packet-proc: route packet from GigabitEthernet1 src 192.168.56.51 dst 192.168.56.2']
