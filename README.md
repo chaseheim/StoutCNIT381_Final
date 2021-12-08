@@ -80,9 +80,9 @@ There are several python modules that are required to replicate this project. Ad
     127.0.0.1 - - [08/Dec/2021 03:38:11] "POST / HTTP/1.1" 200 -
     ```
 
-## Skills
+## Pretty Code
 
-1. RESTCONF skill function
+__RESTCONF skill function__
 
 ![RESTCONF](restconfTest.png)
 
