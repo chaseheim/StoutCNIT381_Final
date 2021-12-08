@@ -32,7 +32,7 @@ There are several python modules that are required to replicate this project. Ad
 
 1. Download or pull the repo and unpack all contents in the same directory in your development environment
 
-![Directory Layout](directory.png)
+    ![Directory Layout](directory.png)
 
 2. Open the `WebexBot.py` file in your IDE of choice
 
@@ -58,9 +58,10 @@ There are several python modules that are required to replicate this project. Ad
     - Ensure that your terminal is in the directory of all the other files. Ansible relies on this.
 6. Proceed to teams.webex.com and begin messaging the bot using its email. Saying 'Hello' will prompt the bot to return its greeting message
 
-![Talking Bot](response.png)
+    ![Talking Bot](response.png)
 
 7. Observe the output of the bot to ensure its functionality
+
     ```
     Message content:
     Webex Teams Message:
@@ -81,7 +82,22 @@ There are several python modules that are required to replicate this project. Ad
 
 ## Common Help
 
-If the running config becomes too large, it gets saved to runningConfigs/running_config_<ip>_<timecode>.txt
+* If the running config becomes too large, it gets saved to the following:
+
+    ```
+    ./runningConfigs/running_config_<ip>_<timecode>.txt
+    ```
+
+* Running __/help__ in the chatbox will return the skills. See example below:
+
+    ```
+    Hello!  I understand the following commands:
+
+        /help: Get help.
+        capture debug: Ansible Skill: Save the debug information to a file on host.
+        interface state: RESTCONF SKill: Get interface state infromation about Gig2.
+        show run: Netmiko Skill: Return running configuration on the router
+    ```
 
 ## Authors
 
