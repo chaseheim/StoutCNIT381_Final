@@ -35,7 +35,7 @@ headers = {
 # Bot Details
 bot_email = 'benjamin_flinkerton@webex.bot' #Fill in your Teams Bot email#
 teams_token = 'NGEzMTQxNTAtMjMzOC00OWMzLTgyMDUtNTU5MTRhY2U0OTA0NWZjNzAzMjctYTI1_P0A1_d6bae168-94e6-4bfa-95a0-88365138f260' #Fill in your Teams Bot Token#
-bot_url = "https://a3c3-97-90-226-103.ngrok.io" #Fill in the ngrok forwarding address#
+bot_url = "https://0739-97-90-226-103.ngrok.io" #Fill in the ngrok forwarding address#
 bot_app_name = 'Benjamin Flinkerton'
 
 # Create a Bot Object

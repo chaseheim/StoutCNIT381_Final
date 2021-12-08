@@ -31,48 +31,69 @@ There are several python modules that are required to replicate this project. Ad
 ### Installing
 
 1. Download or pull the repo and unpack all contents in the same directory in your development environment
-2. Open the `WebexBot.py` file in your IDE of choice
-3. Replace the bot information on lines `36` through `39`
-```
-### Configure the Webex Teams Bot ###
-# Bot Details
-bot_email = '' #Fill in your Teams Bot email#
-teams_token = '' #Fill in your Teams Bot Token#
-bot_url = '' #Fill in the ngrok forwarding address#
-bot_app_name = '' #Give your bot a name#
-```
+
 ![Directory Layout](directory.png)
+
+2. Open the `WebexBot.py` file in your IDE of choice
+
+3. Replace the bot information on lines `36` through `39`
+    - Make sure to use the bot's token on the `teams_token` variable
+
+    ```
+    ### Configure the Webex Teams Bot ###
+    bot_email = '' #Fill in your Teams Bot email#
+    teams_token = '' #Fill in your Teams Bot Token#
+    bot_url = '' #Fill in the ngrok forwarding address#
+    bot_app_name = '' #Give your bot a name#
+    ```
+
+* It is assumed you have two routers that are capeable of being managed by the tasks within this bot, and comform to the topology described before.
 
 ### Executing program
 
-* Start a new terminal (cmd line) and run the code 'ngrok http 5000'
-* This will host the bot on your computer, temporarly 
-* Copy the url from the ngrok to the 381bot.py file and save
-* Run the 381bot.py file using the command 'python3 381bot.py' within Visual Studio
-* You may need to change which directory is active within the Visual Studio terminal to run properly
-* Proceed to teams.webex.com and begin messaging the bot. Saying 'Hello' will prompt the bot with available commands.
+1. Start a new terminal and create your ngrok session using `ngrok http 5000`
+     - This will host the forwarder through ngrok on your machine, keep this window open
+2. Copy the https url and put in the `bot_url` variable from before
+3. Run the Webex Bot using the command `python3 WebexBot.py` within Visual Studio
+    - Ensure that your terminal is in the directory of all the other files. Ansible relies on this.
+6. Proceed to teams.webex.com and begin messaging the bot using its email. Saying 'Hello' will prompt the bot to return its greeting message
 
-![Talking Bot](https://github.com/chaseheim/StoutCNIT381_Final/blob/botresponse.jpeg?raw=true)
+![Talking Bot](response.png)
+
+7. Observe the output of the bot to ensure its functionality
+    ```
+    Message content:
+    Webex Teams Message:
+    {
+        "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL01FU1NBR0UvNDMzOTE2OTAtNTdkOC0xMWVjLTk2ODYtMjk2NTczODc0Zjlj",
+        "roomId": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vOGVhOTBjNzAtM2U5Ny0xMWVjLWEyZTctZDExZjkwZjI4Yjg2",
+        "roomType": "direct",
+        "text": "I have finished the execution of debug! The files are stored in my /debug-logs folder!",
+        "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS8zMTRlZTJmMy03MDlmLTQyYjgtYjI0MS04Njc0OWJhMDc4Mjk",
+        "personEmail": "benjamin_flinkerton@webex.bot",
+        "markdown": "I have finished the execution of debug! The files are stored in my /debug-logs folder!",
+        "html": "<p>I have finished the execution of debug! The files are stored in my /debug-logs folder!</p>",
+        "created": "2021-12-08T03:38:09.401Z"
+    }
+    Ignoring message from our self
+    127.0.0.1 - - [08/Dec/2021 03:38:11] "POST / HTTP/1.1" 200 -
+    ```
 
 ## Common Help
 
 If the running config becomes too large, it gets saved to runningConfigs/running_config_<ip>_<timecode>.txt
 
-
-
 ## Authors
 
-Contributors names and contact info
+__Contributors names and contact info__
 
-Chase Heim
-Chue Andy Yang
-Cody Droes
-
+*Chase Heim*
+*Chue Andy Yang*
+*Cody Droes*
 
 ## Version History
 
-
-* 0.1
+* __0.1__
     * Initial Release
 
 ## License
