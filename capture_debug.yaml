@@ -23,3 +23,8 @@
     copy:
       content: "{{ config.stdout | replace('\\n', '\n') }}"           
       dest: "debug-logs/{{ inventory_hostname }}.log"
+  
+  - name: turn off debug
+    ios_command:
+      commands:
+        - no debug all
