@@ -1,29 +1,47 @@
-# Bank of America Network Bot
-
-This bot is designed to monitor a bank's internet connection.
-
-## Description
+## Project Overview
 
 This bot is designed interact and monitor the network on the following topology.
 The requirements for this project were to have several different methods of interacting with the network. This includes one Netmiko skill, one RESTCONF skill, one Ansible skill, one Genie skill, and a disaster recovery skill.
 
 With ansible, the bot enables and captures debuging logs. With netmiko, it captures the running configurations. With restconf, it obtain detailed information for the network interface GigabitEthernet2 port.
-![Network Design](https://github.com/chaseheim/StoutCNIT381_Final/blob/topology.jpg?)
+
+![Network Design](/topology.jpg?)
 
 ## Getting Started
 
+The `WebexBot.py` file is the main file for this project. It contains the code that creates and adds skills to the Webex Teams bot. The skills are called from their own fils that all end in ...Test.py 
+
 ### Dependencies
 
-* This was created on a Linux VM using Visual Studio Code. Paramiko/Netmiko, RESTCONF/NETCONF, Ansible, and Python 
-* libraries will be needed.
+There are several python modules that are required to replicate this project. Additionally, the bot uses ngrok to forward its requests from the Webex API to the python terminal.
+
+* This was created on an Ubuntu Linux VM running these aformentioned modules. 
+* Need the pip3 modules: Paramiko/Netmiko, RESTCONF/NETCONF, Ansible, and Python 
 * The bot was created on developers.webex.com and can be used on teams.webex.com
 
+### Setting up a Webex App (Bot)
+
+1. Navigate to developers.webex.com and create an account
+2. Sign into developers and navigate to [your webex apps](https://developer.webex.com/my-apps)
+3. Create a new app
+4. Select type Bot
+5. Name your bot, give it an email and fill in other required fields
+6. Save your bot's access token. It will be used when setting up the python files
 
 ### Installing
 
-* Download the entire zip file and unpack all contents in the same folder/directory
-* within Visual Studio.
-![Directory Layout](https://github.com/chaseheim/StoutCNIT381_Final/blob/directory.jpeg?raw=true)
+1. Download or pull the repo and unpack all contents in the same directory in your development environment
+2. Open the `WebexBot.py` file in your IDE of choice
+3. Replace the bot information on lines `36` through `39`
+```
+### Configure the Webex Teams Bot ###
+# Bot Details
+bot_email = '' #Fill in your Teams Bot email#
+teams_token = '' #Fill in your Teams Bot Token#
+bot_url = '' #Fill in the ngrok forwarding address#
+bot_app_name = '' #Give your bot a name#
+```
+![Directory Layout](directory.png)
 
 ### Executing program
 
