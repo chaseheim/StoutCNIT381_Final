@@ -103,9 +103,9 @@ There are several python modules that are required to replicate this project. Ad
 
 __Contributors names and contact info__
 
-*Chase Heim*
-*Chue Andy Yang*
-*Cody Droes*
+*Chase Heim*, 
+*Chue Andy Yang*, 
+*Cody Droes*, 
 
 ## Version History
 
