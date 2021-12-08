@@ -8,7 +8,7 @@ This bot is designed to monitor for a change in IP addresses in the 172.16.0.0/2
 It then changes the second address to match the change in the first, accordingly.
 The bot is also designed to enable and capture debuging logs with Ansible, capture running configurations
 with Paramiko, and obtain detailed information for network ports with RESTCONF
-![Network Design](https://github.com/chaseheim/StoutCNIT381_Final/blob/topology.jpeg?raw=true)
+![Network Design](https://github.com/chaseheim/StoutCNIT381_Final/blob/topology.jpg?raw=true)
 
 ## Getting Started
 
