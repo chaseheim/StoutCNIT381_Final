@@ -1,14 +1,14 @@
 # Bank of America Network Bot
 
-A bot designed to monitor a bank's internet connection.
+This bot is designed to monitor a bank's internet connection.
 
 ## Description
 
-This bot is designed to monitor for a change in IP addresses in the 172.16.0.0/24 network.
-It then changes the second address to match the change in the first, accordingly.
-The bot is also designed to enable and capture debuging logs with Ansible, capture running configurations
-with Paramiko, and obtain detailed information for network ports with RESTCONF
-![Network Design](https://github.com/chaseheim/StoutCNIT381_Final/blob/topology.jpg?raw=true)
+This bot is designed interact and monitor the network on the following topology.
+The requirements for this project were to have several different methods of interacting with the network. This includes one Netmiko skill, one RESTCONF skill, one Ansible skill, one Genie skill, and a disaster recovery skill.
+
+With ansible, the bot enables and captures debuging logs. With netmiko, it captures the running configurations. With restconf, it obtain detailed information for the network interface GigabitEthernet2 port.
+![Network Design](https://github.com/chaseheim/StoutCNIT381_Final/blob/topology.jpg?)
 
 ## Getting Started
 
